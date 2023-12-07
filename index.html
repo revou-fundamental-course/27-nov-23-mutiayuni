@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator Mathematics</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="judul">CalcMath (Calculator Mathematics)</h1>
+            <ul>
+                <li><a href="">Luas Segitiga</a></li>
+                <li><a href="">Keliling Segitiga</a></li>
+            </ul>
+        <hr>
+        </div>
+        <div class="luasSegitiga">
+            <h3>Menghitung Luas Segitiga</h3>
+            <img src="img/Rumus Luas Segitiga.png" alt="">
+        </div>
+        <div class="input-luas-section">
+        <label for="alas">Nilai Alas</label>
+        <input type="number" id="alas">
+        <label for="tinggi">Nilai Tinggi</label>
+        <input type="number" id="tinggi">
+        </div>
+        <br>
+        <br>
+        <div class="buttons luas" id="button-luas">
+        <button id="button-hitung-luas">Hitung</button>
+        <br>
+        <br>
+        <form action="#" id="myForm" method="post">
+        <button type="submit" onclick="resetForm()" id="button-reset-luas">Reset</button>
+        </form>
+        <br>
+        <br>
+        <div id="output"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        </div>
+    <br>
+    <br>
+    <hr>
+    <div class="kelilingSegitiga">
+        <h3>Menghitung Keliling Segitiga</h3>
+        <img src="img/Rumus Keliling Segitiga.png" alt="">
+    </div>
+    <div class="input-keliling-section">
+        <label for="sisiA">Nilai Sisi A</label>
+        <input type="number" id="sisiA">
+        <label for="sisiB">Nilai Sisi B</label>
+        <input type="number" id="sisiB">
+        <label for="sisiC">Nilai Sisi C</label>
+        <input type="number" id="sisiC">
+        </div>
+        <br>
+        <br>
+        <div class="buttons Keliling" id="button-keliling">
+        <button id="button-hitung-keliling">Hitung</button>
+        <br>
+        <br>
+        <form action="#" id="myForm" method="post">
+        <button type="submit" onclick="resetForm()" id="button-reset-luas">Reset</button>
+        </form>
+        <br>
+        <br>
+        <div id="outputkeliling"></div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
